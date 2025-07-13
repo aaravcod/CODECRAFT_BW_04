@@ -27,8 +27,8 @@ This project demonstrates how to implement **Redis caching** in a **Node.js + Ex
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/your-username/redis-caching-api.git
-   cd redis-caching-api
+git clone https://github.com/your-username/redis-caching-api.git
+cd redis-caching-api
  ```
 
  2. Install dependencies
@@ -59,3 +59,8 @@ nodemon server.js
 - Each GET /users request prints the time it takes in the console:
 -First request: fetch from MongoDB (~1000ms)
 - Subsequent requests: fetch from Redis (~1ms)
+
+
+
+- The server runs at http://localhost:3000
+- The swagger API runs at http://localhost:3000/api-docs/

@@ -26,7 +26,7 @@ This project demonstrates how to implement **Redis caching** in a **Node.js + Ex
 ## 📦 Installation
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/your-username/redis-caching-api.git
    cd redis-caching-api
  ```

@@ -46,7 +46,7 @@ redis-server
 nodemon server.js
 ```
 
-### 📂 API Endpoints
+## 📂 API Endpoints
 
 | Method | Route        | Description                 |
 | ------ | ------------ | --------------------------- |
@@ -55,7 +55,7 @@ nodemon server.js
 | PUT    | `/users/:id` | Update user (invalidate)    |
 | DELETE | `/users/:id` | Delete user (invalidate)    |
 
-### 🧪 Measuring Performance
+## 🧪 Measuring Performance
 - Each GET /users request prints the time it takes in the console:
 -First request: fetch from MongoDB (~1000ms)
 - Subsequent requests: fetch from Redis (~1ms)

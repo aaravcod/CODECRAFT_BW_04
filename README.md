@@ -61,6 +61,6 @@ nodemon server.js
 - Subsequent requests: fetch from Redis (~1ms)
 
 
-
+## Routes
 - The server runs at http://localhost:3000
 - The swagger API runs at http://localhost:3000/api-docs/
